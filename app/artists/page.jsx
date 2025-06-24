@@ -21,6 +21,7 @@ const artists = () => {
         ? prev.filter((c) => c !== category)
         : [...prev, category]
     )
+    // console.log(selectedCategories)
   }
 
   // Filter logic

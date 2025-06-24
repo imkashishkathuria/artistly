@@ -14,7 +14,7 @@ const Home = () => {
         <div className='max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8'>
           <div className="w-full md:w-2/2">
             <h1 className="text-3xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-6 bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 bg-clip-text animate-gradient-move">
-              Discover & Book Local <span className="text-purple-600 drop-shadow-md">Artists</span>
+              Discover & Book Local <span className="text-purple-600 drop-shadow-lg">Artists</span>
             </h1>
             <p className="text-base md:text-xl text-gray-600 mb-8 animate-fade-in delay-100">
               Singers, DJs, Dancers, and more — all in one place. Explore your city’s finest talents with a single click.
@@ -60,10 +60,12 @@ const Home = () => {
           ].map((cat) => (
             <div
               key={cat.title}
-              className="bg-purple-50 hover:bg-purple-100 text-center py-8 px-4 rounded-xl shadow-sm transition cursor-pointer"
-            >
-              <div className="text-6xl mb-2">{cat.emoji}</div>
-              <div className="text-2xl font-semibold text-purple-800">{cat.title}</div>
+              className="bg-purple-50 hover:bg-purple-200 text-center py-8 px-4 rounded-xl shadow-sm transition cursor-pointer">
+                <div className="text-6xl mb-2">{cat.emoji}</div>
+                <div className="text-2xl font-semibold text-purple-800">
+                  {cat.title}
+
+                </div>
             </div>
           ))}
         </div>
@@ -106,12 +108,12 @@ const Home = () => {
             What Our Users Say
           </h3>
           <div className="mt-2 w-20 h-1 bg-sky-500 mx-auto rounded-full animate-slide-in mb-10" />
-          <div className="flex flex-col md:flex-row gap-6 items-start">
+          <div className="flex items-center justify-between gap-4 w-full flex-wrap md:flex-nowrap">
             {/* Left Arrow */}
-            <div className="md:pt-6">
+            <div className="md:pt-6 flex-shrink-0">
               <ArrowLeftCircle size={50} color="grey" className="cursor-pointer" />
             </div>
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 flex-1">
               {[
 
                 {
@@ -130,7 +132,7 @@ const Home = () => {
 
               ))}
             </div>
-            <div className="md:pt-6">
+            <div className="md:pt-6 flex-shrink-0">
               <ArrowRightCircle size={50} color="grey" className="cursor-pointer" />
             </div>
           </div>

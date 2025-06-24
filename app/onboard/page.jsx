@@ -6,7 +6,6 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import { useRouter } from 'next/navigation'
 import { toast } from 'react-hot-toast'
-import { useEffect } from 'react'
 import Header from '@/components/header'
 
 
@@ -29,8 +28,6 @@ const onboard = () => {
     register,
     handleSubmit,
     setValue,
-    watch,
-    reset,
     formState: { errors }
   } = useForm({
     resolver: yupResolver(schema),
@@ -169,10 +166,7 @@ const onboard = () => {
                 Choose Image
               </label>
 
-              {/* Show file name */}
-              {watch('image')?.[0] && (
-                <span className="ml-4 text-gray-700">{watch('image')[0].name}</span>
-              )}
+              
             </div>
 
             {/* Image Preview */}
