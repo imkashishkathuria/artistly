@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Sharanya Bisht",
+    "category": "Singer",
+    "priceRange": "₹10k–₹20k",
+    "location": "Mumbai",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmTXK0hQy-MMBL_R7o3LgljlVsflGnFRnryg&s"
+  },
+  {
+    "id": 2,
+    "name": "Anushka Reddy",
+    "category": "Dancer",
+    "priceRange": "₹5k–₹10k",
+    "location": "Delhi",
+    "image": "https://m.media-amazon.com/images/M/MV5BYWZkZDNkNWUtMjQ3OC00ZTFkLWJmZDktNjU5NzJmZTg5ZmU5XkEyXkFqcGc@._V1_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Vyom Bedi",
+    "category": "DJ",
+    "priceRange": "₹20k+",
+    "location": "Bangalore",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj27-L6CFbY6bYzhxizOF0_U27S_l-XfFaceAeOi3rffhZdsyYStR1hz3VskwK6UHwigY&usqp=CAU"
+  },
+  {
+    "id": 4,
+    "name": "Madhvi Bisht",
+    "category": "Speaker",
+    "priceRange": "₹5k–₹10k",
+    "location": "Kolkata",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLtJE8MplZY-cr7n05m1cpqYapHRNOUZLVtA&s"
+  },
+  {
+    "id": 5,
+    "name": "Vivaan Joshi",
+    "category": "Actor",
+    "priceRange": "₹10k–₹20k",
+    "location": "Gujrat",
+    "image": "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+
+  { 
+    "id": 6, 
+    "name": "Diya Singh", 
+    "category": "Singer", 
+    "priceRange": "₹5k–₹10k", 
+    "location": "Hyderabad", 
+    "image": "https://plus.unsplash.com/premium_photo-1690086519096-0594592709d3?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" 
+    },
+
+  { 
+    "id": 7, 
+    "name": "Kabir Desai", 
+    "category": "Dancer", 
+    "priceRange": "₹10k–₹20k", 
+    "location": "Delhi", 
+    "image": "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" 
+    },
+
+  { 
+    "id": 8, 
+    "name": "Janvi Singh", 
+    "category": "DJ",
+    "priceRange": "₹10k–₹20k", 
+    "location": "Mumbai", 
+    "image": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" },
+  { 
+    "id": 9, 
+    "name": "Shiv Menon", 
+    "category": "Speaker", 
+    "priceRange": "₹20k+", 
+    "location": "Chennai", 
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9O2djXV3T-9A9txa1iORKZW5TWaOfov_qMQ&s" },
+  { 
+    "id": 10, 
+    "name": "Riya Kulkarni", 
+    "category": "Actor", 
+    "priceRange": "₹5k–₹10k", 
+    "location": "Kolkata", 
+    "image": "https://static.sociofyme.com/thumb/imgsize-990648,msid-98945289,width-768,height-1280,resizemode-6,webp-1/98945289.jpg" },
+
+  { 
+    "id": 11, 
+    "name": "Tanvi Patel", 
+    "category": "Singer", 
+    "priceRange": "₹20k+", 
+    "location": "Delhi", 
+    "image": "https://qph.cf2.quoracdn.net/main-qimg-372500986b4ede37fba1f7d3e6688d63-lq" },
+
+  { 
+    "id": 12, 
+    "name": "Arnav Bansal", 
+    "category": "Dancer", 
+    "priceRange": "₹5k–₹10k", 
+    "location": "Hyderabad", 
+    "image": "https://www.merisaheli.com/wp-content/uploads/2021/01/NAK-800x648.jpg" },
+
+  { 
+    "id": 13, 
+    "name": "Aisha Gupta", 
+    "category": "DJ", 
+    "priceRange": "₹10k–₹20k", 
+    "location": "Mumbai", 
+    "image": "https://static.sociofyme.com/thumb/imgsize-990648,msid-98945078,width-768,height-1280,resizemode-6,webp-1/98945078.jpg" },
+
+  { 
+    "id": 14, 
+    "name": "Yash Khanna", 
+    "category": "Speaker", 
+    "priceRange": "₹10k–₹20k", 
+    "location": "Delhi", 
+    "image": "https://i.pinimg.com/236x/84/fe/57/84fe57fc8b7d6308cc8e8351eb7c8c0f.jpg" },
+
+  { 
+    "id": 15, 
+    "name": "Sia Reddy", 
+    "category": "Actor", 
+    "priceRange": "₹20k+", 
+    "location": "Bangalore", 
+    "image": "https://newsmeter.in/h-upload/2021/01/30/292262-drashti-dhami.webp" },
+
+  { 
+    "id": 16, 
+    "name": "Kunal Aggarwal", 
+    "category": "Singer", 
+    "priceRange": "₹5k–₹10k", 
+    "location": "Chennai", 
+    "image": "https://m.media-amazon.com/images/M/MV5BMjQzMjEyMDY1Nl5BMl5BanBnXkFtZTgwNTM3OTczOTE@._V1_.jpg" },
+
+  { 
+    "id": 17, 
+    "name": "Pooja Nair", 
+    "category": "Dancer", 
+    "priceRange": "₹20k+", 
+    "location": "Kolkata", 
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Sriti-Jha-attend-the-press-meet-for-the-show-Khatron-Ke-Khiladi-12.jpg" },
+
+  { 
+    "id": 18, 
+    "name": "Nikhil Rao", 
+    "category": "DJ", 
+    "priceRange": "₹5k–₹10k", 
+    "location": "Delhi", 
+    "image": "https://im.idiva.com/photogallery/2020/Jul/Popular-TV-Actors-Every-90s-and-2000s-Kid-Crushed-On_4-copy_5efd6e4478f73.jpg?w=600&h=450&cc=1" },
+
+  { 
+    "id": 19, 
+    "name": "Sneha Menon", 
+    "category": "Speaker", 
+    "priceRange": "₹10k–₹20k", 
+    "location": "Mumbai", 
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShd5X0mX-k4cANyPTue124bNGkJCrJWypqos7vKfiRQs9uxucV9nXX4K_-Yt5mnOyLB3U&usqp=CAU" },
+
+  { 
+    "id": 20, 
+    "name": "Dev Sharma", 
+    "category": "Actor", 
+    "priceRange": "₹10k–₹20k", 
+    "location": "Hyderabad", 
+    "image": "https://i.redd.it/opinion-indian-tv-industry-has-better-actors-than-bollywood-v0-6m9oldfj4qdb1.jpg?width=1170&format=pjpg&auto=webp&s=7b78245ca35c8cb72c4a48fea195a4bb3156e906" },
+
+  { 
+    "id": 21, 
+    "name": "Alia Iyer", 
+    "category": "Singer", 
+    "priceRange": "₹20k+", 
+    "location": "Bangalore", 
+    "image": "https://i.pinimg.com/236x/28/32/b1/2832b146a33868aa24c4a9bd75ca86c8.jpg" },
+
+  { 
+    "id": 22, 
+    "name": "Reyansh Singh", 
+    "category": "Dancer", 
+    "priceRange": "₹5k–₹10k", 
+    "location": "Kolkata", 
+    "image": "https://i0.wp.com/urbanasian.com/wp-content/uploads/2017/09/Vivian-Dsena-close-up.jpg?resize=640%2C427&ssl=1" },
+
+  { 
+    "id": 23, 
+    "name": "Tanya Bajaj", 
+    "category": "DJ", 
+    "priceRange": "₹10k–₹20k", 
+    "location": "Delhi", 
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jennifer_Winget_snapped_promoting_her_web_series_Code_M.jpg" },
+
+  { 
+    "id": 24, 
+    "name": "Omkar Jadhav", 
+    "category": "Speaker", 
+    "priceRange": "₹5k–₹10k", 
+    "location": "Chennai", 
+    "image": "https://i0.wp.com/urbanasian.com/wp-content/uploads/2017/09/Kinshuk-Mahajan-7.jpg?resize=640%2C960&ssl=1" },
+
+  { 
+    "id": 25, 
+    "name": "Kiara Shah", 
+    "category": "Actor", 
+    "priceRange": "₹20k+", 
+    "location": "Mumbai", 
+    "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202505/falaq-naaz-09431093-16x9_0.jpg?VersionId=0iJCqcpdncbehLiUzo.j_NtG69hRZe.x&size=690:388" },
+
+  { 
+    "id": 26, 
+    "name": "Zara Fernandes", 
+    "category": "Singer", 
+    "priceRange": "₹10k–₹20k", 
+    "location": "Delhi", 
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR834BAOv3VC0a1OHCW15tuxyb_R-Iksh4zXw&s" },
+
+  { 
+    "id": 27, 
+    "name": "Rudra Singh", 
+    "category": "Dancer", 
+    "priceRange": "₹10k–₹20k", 
+    "location": "Bangalore", 
+    "image": "https://wp.scoopwhoop.com/wp-content/uploads/2016/04/571af6026e510a13883e01a8_321385150.jpg" },
+
+  { 
+    "id": 28, 
+    "name": "Nisha Taneja", 
+    "category": "DJ", 
+    "priceRange": "₹5k–₹10k", 
+    "location": "Hyderabad", 
+    "image": "https://tsnapi.truescoopnews.com/news/1728194926020.webp" },
+
+  { 
+    "id": 29, 
+    "name": "Arav Rathi", 
+    "category": "Speaker", 
+    "priceRange": "₹10k–₹20k", 
+    "location": "Mumbai", 
+    "image": "https://wp.scoopwhoop.com/wp-content/uploads/2018/07/5b484c1cfb7785438b0b558c_3e2f3d6c-b760-46ff-b1bd-0bfefd7de936.jpg" },
+
+  { 
+    "id": 30, 
+    "name": "Trisha Pillai", 
+    "category": "Actor", 
+    "priceRange": "₹5k–₹10k", 
+    "location": "Delhi", 
+    "image": "https://worldblaze.in/wp-content/uploads/2015/01/Sanjeeda-Sheikh.jpg" }
+]
