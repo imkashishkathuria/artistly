@@ -49,6 +49,12 @@ const onboard = () => {
       return;
     }
 
+    const sizeInMB = file.size / (1024 * 1024);
+    if (sizeInMB > 2) {
+      toast.error('Image too large. Max allowed size is 2MB');
+      return;
+    }
+
     const reader = new FileReader()
     reader.onloadend = () => {
       const newArtist = {
@@ -59,10 +65,14 @@ const onboard = () => {
         location: data.location,
         image: reader.result
       }
-      const existing = JSON.parse(localStorage.getItem('artists')) || []
-      localStorage.setItem('artists', JSON.stringify([...existing, newArtist]))
-      toast.success('Artist submitted successfully!')
-      router.push('/artists')
+      const existing = JSON.parse(localStorage.getItem('artists')) || [];
+      try {
+        localStorage.setItem('artists', JSON.stringify([...existing, newArtist]))
+        toast.success('Artist submitted successfully!')
+        router.push('/artists')
+      } catch (e) {
+        toast.error("Failed to save artist. Try a smaller image.");
+      }
     }
     reader.readAsDataURL(file)
   }
